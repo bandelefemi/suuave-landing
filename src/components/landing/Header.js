@@ -21,7 +21,7 @@ const Header = () => {
                 Blog
             </Link>
             <Link href={'/'}>
-                Teams
+                Team
             </Link>
             <div>
                 <p className='white-btn'>

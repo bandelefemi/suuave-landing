@@ -9,8 +9,8 @@ const Third = () => {
         </div>
         <div className=' flex flex-col justify-center gap-10 md:gap-5 mt-10 md:mt-0 md:flex-1'>
             <div>
-                <p className=' text-center md:text-left text-3xl md:text-xl lg:text-3xl font-semibold text-neutral-500 capitalize'>
-                    Zee needs a skilled African fashion illustrator to bring her imaginnation to life and boost her productivity
+                <p className=' text-center md:text-left text-2xl md:text-xl lg:text-3xl font-semibold text-neutral-600'>
+                    <span className=' text-4xl font-extrabold'>Zee</span> needs skilled African fashion illustrators to help her create culture-inspired and Afro-infused urban designs to help her boost her collections.
                 </p>
             </div>
             <div>

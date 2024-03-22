@@ -9,8 +9,8 @@ const Second = () => {
         </div>
         <div className=' order-1 flex flex-col justify-center gap-10 md:gap-5 mt-10 md:mt-0 md:flex-1'>
             <div>
-                <p className=' text-center md:text-left text-2xl md:text-xl lg:text-3xl font-semibold text-neutral-500 capitalize'>
-                    Kay is here to meet top fashion designers/brands to collaborate and earn
+                <p className=' text-center md:text-left text-2xl md:text-xl lg:text-2xl font-semibold text-neutral-600'>
+                    <span className=' text-4xl font-extrabold'>Kay</span> is here to meet top fashion designers/brands to collaborate and earn
                 </p>
             </div>
             <div>
