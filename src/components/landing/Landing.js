@@ -8,7 +8,7 @@ import Contact from './Contact'
 const Landing = () => {
   return (
     <div>
-        <div>
+        <div className=' z-20'>
             <Header />
         </div>
         <section>

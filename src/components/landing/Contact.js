@@ -10,19 +10,27 @@ const Contact = () => {
         <div className=' flex justify-center md:justify-start'>
             <Image src={'/assets/logo/logo.svg'} alt='' width={100} height={100} />
         </div>
-        <div className=' flex justify-center gap-3 mt-5'>
-            <Link href={'https://linkedin.com/in/suuave-ftx'}>
-                <FaLinkedinIn />
-            </Link>
-            <Link href={'https://x.com/suuaveftx'}>
-                <FaXTwitter />
-            </Link>
-            <Link href={'https://www.instagram.com/suuaveftx'}>
-                <FaInstagram />
-            </Link>
-            <Link href={'https://youtube.com/@SuuaveFTx?si=bQzx3E_J2z1UsC5H'}>
-                <FaYoutube />
-            </Link>
+        <div className=' flex flex-col items-center mt-5 md:mt-0 md:flex-row md:gap-5'>
+            <div>
+                <p className=' text-xs'>
+                    suuaveftx@gmail.com 
+                </p>
+            </div>
+            <div className=' flex justify-center gap-3 md:mt-0 mt-5'>
+                
+                <Link href={'https://x.com/suuaveftx'}>
+                    <FaXTwitter />
+                </Link>
+                <Link href={'https://www.instagram.com/suuaveftx'}>
+                    <FaInstagram />
+                </Link>
+                <Link href={'https://youtube.com/@SuuaveFTx?si=bQzx3E_J2z1UsC5H'}>
+                    <FaYoutube />
+                </Link>
+                <Link href={'https://linkedin.com/in/suuave-ftx'}>
+                    <FaLinkedinIn />
+                </Link>
+            </div>
         </div>
     </div>
   )

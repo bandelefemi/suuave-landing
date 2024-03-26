@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 const First = () => {
@@ -7,10 +8,10 @@ const First = () => {
         <div className=' hidden md:flex absolute -bottom-60 right-0'>
             <Image src={'/assets/landing/image1.svg'} alt='' width={100} height={100} className=' w-[500px]' />
         </div>
-        <div className=' flex flex-col justify-center gap-10 md:gap-5 mt-10 md:mt-0 md:w-1/2'>
+        <div className=' flex flex-col justify-center gap-10 md:gap-5 mt-10 md:mt-0 md:w-3/5'>
             <div>
-                <p className=' text-center md:text-left text-3xl md:text-xl lg:text-3xl font-semibold md:font-bold text-white capitalize'>
-                    Find and Negotiate with the Ideal Illustrator, <br />
+                <p className=' text-center md:text-left text-3xl md:text-xl lg:text-3xl font-semibold md:font-bold text-white'>
+                    Find and Negotiate with the Ideal Illustrator,  <br /><br />
                     Create Your Next Collection Seamlessly.
                 </p>
             </div>
@@ -20,9 +21,9 @@ const First = () => {
                 </p>
             </div>
             <div className=' flex justify-center md:justify-start'>
-                <p className=' cyan-btn'>
+                <Link href={'https://docs.google.com/forms/d/1sSpMR0Xq5UYZU61T_xdU-k7NcDbpCBOf2puhSlVXNVU/edit?usp=drive_web'} className=' cyan-btn cursor-pointer'>
                     Join the Waitlist
-                </p>
+                </Link>
             </div>
         </div>
         {/* <div></div> */}

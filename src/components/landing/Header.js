@@ -15,7 +15,7 @@ const Header = () => {
                 Home
             </Link>
             <Link href={'/'}>
-                About us
+                About Us
             </Link>
             <Link href={'/'}>
                 Blog
@@ -24,9 +24,9 @@ const Header = () => {
                 Team
             </Link>
             <div>
-                <p className='white-btn'>
-                    Sign up
-                </p>
+                <Link href={'https://docs.google.com/forms/d/1sSpMR0Xq5UYZU61T_xdU-k7NcDbpCBOf2puhSlVXNVU/edit?usp=drive_web'} className='white-btn cursor-pointer'>
+                    Join the Waitlist
+                </Link>
             </div>
         </div>
     </div>
