@@ -27,7 +27,7 @@ const Contact = () => {
                 <Link href={'https://youtube.com/@SuuaveFTx?si=bQzx3E_J2z1UsC5H'}>
                     <FaYoutube />
                 </Link>
-                <Link href={'https://linkedin.com/in/suuave-ftx'}>
+                <Link href={'https://www.linkedin.com/company/suuave/'}>
                     <FaLinkedinIn />
                 </Link>
             </div>
