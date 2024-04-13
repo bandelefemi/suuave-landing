@@ -1,8 +1,10 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import Nav from '../nav/Nav'
+import { IoMdMenu } from "react-icons/io";
 
-const Header = () => {
+const Header = ({setShowNav}) => {
 
     // #cce7f1
   return (
@@ -29,6 +31,14 @@ const Header = () => {
                 </Link>
             </div>
         </div>
+        <div className=' md:hidden'>
+            <p onClick={()=> setShowNav(true)} className=' text-2xl'>
+                <IoMdMenu />
+            </p>
+        </div>
+        {/* <div>
+            <Nav />
+        </div> */}
     </div>
   )
 }

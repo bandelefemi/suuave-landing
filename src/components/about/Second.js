@@ -6,10 +6,13 @@ const Second = () => {
     <div className=' h-full bg-white'>
         <div className=' p-10 flex gap-7'>
             <div className=' flex-1 flex flex-col justify-center '>
-                <div>
-                    <p className=' text-2xl font-semibold w-3/4 text-neutral-500'>
+                <div className='md:justify-start  flex  justify-center'>
+                    <p className=' text-2xl font-semibold text-neutral-500 md:text-start text-center'>
                         Together, let&apos;s inspire, create, and celebrate the beauty of African fashion.
                     </p>
+                </div>
+                <div className=' md:hidden mt-5'>
+                    <Image src={'/assets/about/2.svg'} alt='' width={100} height={100} className=' w-full h-auto' />
                 </div>
                 <div className=' mt-10'>
                     <p className=' text-[0.7rem] font-light text-justify'>
@@ -22,7 +25,7 @@ const Second = () => {
                 </div>
                 <div></div>
             </div>
-            <div className=' w-80 flex items-end justify-center'>
+            <div className='hidden w-80 md:flex items-end justify-center'>
                 <div>
                     <Image src={'/assets/about/2.svg'} alt='' width={100} height={100} className=' w-full h-auto' />
                 </div>

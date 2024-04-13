@@ -12,7 +12,7 @@ const Fourth = () => {
                 </p>
             </div>
             <div className=' flex justify-center mt-10'>
-                <div className=' flex gap-5'>
+                <div className=' flex flex-col md:flex-row gap-5'>
                     {values.map((v, i)=> (
                         <div key={i} className=' w-52 space-y-4 border p-3 rounded-lg'>
                             <div>

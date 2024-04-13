@@ -1,4 +1,5 @@
-import React from 'react'
+'use client'
+import React, { useState } from 'react'
 import Header from '../landing/Header'
 import First from './First'
 import Second from './Second'
@@ -6,12 +7,18 @@ import Third from './Third'
 import Fourth from './Fourth'
 import Fifth from './Fifth'
 import Contact from '../landing/Contact'
+import Nav from '../nav/Nav'
 
 const Home = () => {
+
+    const [showNav, setShowNav] = useState(false)
   return (
     <div>
         <div>
-            <Header />
+            <Header setShowNav={setShowNav} />
+        </div>
+        <div>
+            <Nav showNav={showNav} setShowNav={setShowNav}/>
         </div>
         <div>
             <First />
