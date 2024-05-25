@@ -18,15 +18,16 @@ export const values = [
 ]
 
 export const team = [
-    {
-        name: 'Femi bandele',
-        image: '/assets/about/3.svg',
-        title: 'Co-Founder & CTO',
-    },
+    
     {
         name: 'hamzat  Ibrahim o.',
         image: '/assets/about/4.svg',
         title: 'Founder & CEO',
+    },
+    {
+        name: 'Femi bandele',
+        image: '/assets/about/3.svg',
+        title: 'Co-Founder & CTO',
     },
     
 ]

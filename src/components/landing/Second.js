@@ -8,9 +8,9 @@ const Second = () => {
         <div className=' order-2 flex justify-center mt-10 md:mt-0 md:flex-1'>
             <Image src={'/assets/landing/2.svg'} alt='' width={100} height={100} className=' w-3/4 md:w-full' />
         </div>
-        <div className=' order-1 flex flex-col justify-center gap-10 md:gap-5 mt-10 md:mt-0 md:flex-1'>
+        <div className=' order-1 flex flex-col justify-center gap-5 mt-10 md:mt-0 md:flex-1'>
             <div>
-                <p className=' text-center md:text-left text-2xl md:text-xl lg:text-2xl font-semibold text-neutral-600'>
+                <p className=' text-left text-2xl md:text-xl lg:text-2xl font-semibold text-neutral-600'>
                     <span className=' text-4xl font-extrabold'>Kay</span> is a talented African fashion illustrator who wants to collaborate with top fashion designers and brands, and make money.
                 </p>
             </div>
@@ -24,7 +24,7 @@ const Second = () => {
                 <span className=' text-green-500'>&#10004;</span> Promotion and Incentives
                 </p>
             </div>
-            <div className=' flex justify-center md:justify-start'>
+            <div className=' flex justify-start'>
                 <Link href={'https://youtu.be/rt-9QORRZsI?si=-dUmUAbNkmOXd9Xv'} className=' cyan-btn'>
                     Learn More
                 </Link>

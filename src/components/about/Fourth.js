@@ -14,17 +14,17 @@ const Fourth = () => {
             <div className=' flex justify-center mt-10'>
                 <div className=' flex flex-col md:flex-row gap-5'>
                     {values.map((v, i)=> (
-                        <div key={i} className=' w-52 space-y-4 border p-3 rounded-lg'>
+                        <div key={i} className=' flex-1 space-y-4 border p-3 rounded-lg'>
                             <div>
                                 <Image src={v.img} alt='' width={100} height={100} className=' w-10 h-auto' />
                             </div>
                             <div>
-                                <p className=' font-semibold text-neutral-600 '>
+                                <p className=' md:text-lg font-semibold text-neutral-600 '>
                                     {v.title}
                                 </p>
                             </div>
                             <div>
-                                <p className=' text-xs font-light text-neutral-600'>
+                                <p className=' text-xs md:text-lg font-light text-neutral-600'>
                                     {v.text}
                                 </p>
                             </div>

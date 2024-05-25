@@ -30,8 +30,8 @@ const Nav = ({showNav, setShowNav}) => {
                         </Link>
                     </li>
                     <li>
-                        <Link href={'/'}>
-                            team
+                        <Link href={'/team'}>
+                            Team
                         </Link>
                     </li>
                     

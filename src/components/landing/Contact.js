@@ -13,7 +13,7 @@ const Contact = () => {
         <div className=' flex flex-col items-center mt-5 md:mt-0 md:flex-row md:gap-5'>
             <div>
                 <p className=' text-xs'>
-                    suuaveftx@gmail.com 
+                    info@suuave.com 
                 </p>
             </div>
             <div className=' flex justify-center gap-3 md:mt-0 mt-5'>

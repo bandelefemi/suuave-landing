@@ -15,7 +15,7 @@ const Second = () => {
                     <Image src={'/assets/about/2.svg'} alt='' width={100} height={100} className=' w-full h-auto' />
                 </div>
                 <div className=' mt-10'>
-                    <p className=' text-[0.7rem] font-light text-justify'>
+                    <p className=' text-[0.7rem] md:text-sm font-light text-justify'>
                         We understand that collaboration is key to unleashing the full potential of creativity. By bringing together fashion designers and brands with African fashion illustrators, we envision a dynamic environment that encourages the exploration of fresh perspectives, cultural influences, and innovative designs. Through this synergy, we believe that groundbreaking and trend-setting creations can be realized. <br /> <br />
                         By embracing the rich tapestry of African culture and integrating it into the global fashion landscape, we aim to contribute to the evolution and amplification of African fashion as a force to be reckoned with. <br /> <br />
                         Not only do we provide a space for collaboration, but we also strive to ensure that both designers and illustrators receive the recognition and exposure they deserve. By showcasing their collaborative projects, we aim to shine a light on the talent, skill, and creativity of African fashion illustrators, helping them gain visibility within the industry. <br /> <br />
